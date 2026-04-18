@@ -1,0 +1,13 @@
+        // 双指针
+        // int N = numbers.length;
+        // int left = 0;
+        // int right = N-1;
+        // while(left<right){
+        //     if(numbers[left]+numbers[right]<target){
+        //         left++;
+        //     }else if(numbers[left]+numbers[right]>target){
+        //         right--;
+        //     }else{
+        //         return new int[]{left+1,right+1};
+        //     }
+        // }
