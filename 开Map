@@ -1,0 +1,9 @@
+        //开map
+        // int N = numbers.length;
+        // Map<Integer,Integer> map = new HashMap<>();
+        // for(int i=0;i<N;i++){
+        //     if(map.get(numbers[i])!=null){
+        //         return new int[]{map.get(numbers[i]),i+1};
+        //     }
+        //     map.put(target-numbers[i],i+1);
+        // }
