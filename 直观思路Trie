@@ -1,0 +1,28 @@
+class Trie{
+
+    Set<String> set;
+
+    public Trie(){
+        set = new HashSet<>();
+    }
+
+    public void insert(String word){
+        set.add(word);
+    }
+    
+    public boolean search(String word){
+        return set.contains(word);
+    }
+
+    public boolean startsWith(String prefix){
+        int len = prefix.length();
+        for(String str : set){
+            if(len>str.length() || prefix.charAt(0)!=str.charAt(0)){continue;}
+            int i = 0;
+            while(i<len && str.charAt(i)==prefix.charAt(i)){i++;}
+            if(i==len){return true;}
+        }
+        return false;
+    }
+
+}
